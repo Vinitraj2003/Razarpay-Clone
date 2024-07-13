@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <title>RAZORPAY</title>
   
   <!-- google font -->
@@ -39,11 +40,36 @@
       }
     }
   </style>
+  <style>
+    @layer utilities {
+      .bg-deepBlue { background-color: #02042a; }
+      .bg-lightBlue { background-color: #2b84ea; }
+      .bg-lightBlue300 { background-color: #4b94ed; }
+      .bg-lightBlue500 { background-color: #0b72e7; }
+      .bg-greenLight { background-color: #61cea6; }
+      .bg-grayText { background-color: #818597; }
+      .bg-lightGray { background-color: #e2e2e2; }
+      .bg-grayBlue { background-color: #344a6c; }
+      .bg-deepBlueHead { background-color: #162f56; }
+      .bg-gray2 { background-color: #525a76; }
+  
+      .text-deepBlue { color: #02042a; }
+      .text-lightBlue { color: #2b84ea; }
+      .text-lightBlue300 { color: #4b94ed; }
+      .text-lightBlue500 { color: #0b72e7; }
+      .text-greenLight { color: #61cea6; }
+      .text-grayText { color: #818597; }
+      .text-lightGray { color: #e2e2e2; }
+      .text-grayBlue { color: #344a6c; }
+      .text-deepBlueHead { color: #162f56; }
+      .text-gray2 { color: #525a76; }
+    }
+  </style>
 </head>
 <body>
   <!--Navbar-->
   <nav class="bg-deepBlue">
-      <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+      <div class="relative w-[1080px] mx-auto flex items-center justify-between flex-wrap">
         <a href="/" class="cursor-pointer py-7 pr-7">
           <img 
           src="./images/razarpay2.png"
@@ -147,7 +173,7 @@
   </section>
 
   <!--feature section 1-->
-  <section class="relative mt-[190px] overflow-hidden -top-[4rem]">
+  <section class="relative mt-[190px] overflow-hidden -top-[4rem] d">
 
     <img src="./images/feature-section1-dottedrows.png" alt=""
     loading="lazy" width="233" height="167"
